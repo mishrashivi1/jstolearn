@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="lang" >
+        <li>java</li>
+        <li>c++</li>
+        <li>c</li>
+        <li>python</li>
+        <li>ruby</li>
+    </ul>
+</body>
+<script>
+    function create(langname) {
+        const li=document.createElement('li')
+        li.innerHTML=`${langname}`
+        document.querySelector('.lang').appendChild(li)
+    }
+    create("html");
+
+</script>
+</html>
